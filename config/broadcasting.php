@@ -38,7 +38,7 @@ return [
             'options' => [
                 'cluster' => env('PUSHER_CLUSTER', 'us'),
                 'useTLS' => false,
-                'enabledTransports': ['ws', 'wss']
+                'enabledTransports'=> ['ws', 'wss']
             ],
         ],
 
