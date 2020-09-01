@@ -5,6 +5,8 @@ import Pusher from 'pusher-js'
 import Echo from 'laravel-echo'
 import VueTimeago from 'vue-timeago'
 
+Pusher.logToConsole = true;
+
 Vue.use(VueTimeago, {
   locale: 'en-US',
   locales: { 'en-US': require('vue-timeago/locales/en-US.json') }

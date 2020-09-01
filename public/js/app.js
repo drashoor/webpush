@@ -39827,6 +39827,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+pusher_js__WEBPACK_IMPORTED_MODULE_3___default.a.logToConsole = true;
 vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_timeago__WEBPACK_IMPORTED_MODULE_5___default.a, {
   locale: 'en-US',
   locales: {
