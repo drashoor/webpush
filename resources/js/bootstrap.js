@@ -23,7 +23,8 @@ if (key) {
     broadcaster: 'pusher',
     key: key,
     cluster: cluster,
-    forceTLS: false
+    forceTLS: false,
+    enabledTransports: ['ws', 'wss']
   })
 
   axios.interceptors.request.use(
